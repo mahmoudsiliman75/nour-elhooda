@@ -65,6 +65,34 @@
 </div>
 <!-- END:: WELCOME SECTION -->
 
+<!-- START:: INVESTOR HIGHLIGHT SECTION -->
+<div class="investor">
+  <div class="container">
+    <div class="row">
+
+      <div class="investor-info col-12 col-md-7">
+        <div class="row">
+
+          <h2 class="section-header text-center mb-5 col-12"> Our Investor Heighlights </h2>
+
+          <div class="info-icon col-4"> Test </div>
+
+          <div class="info-icon col-4"> Test </div>
+
+          <div class="info-icon col-4"> Test </div>
+
+        </div>
+      </div>
+
+      <div class="investor-video col-12 col-md-5">
+        <iframe src="https://www.youtube.com/embed/8KVTpYfQzUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<!-- END:: INVESTOR HIGHLIGHT SECTION -->
+
 <!-- END:: PAGE CONTENT -->
 
 <!-- START:: INCLUDING THE FOOTER -->

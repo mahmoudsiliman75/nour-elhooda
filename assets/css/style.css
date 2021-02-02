@@ -28,6 +28,10 @@ nav.stiky .nav-links .menu-container .menu-item a {
   color: #fff;
 }
 
+nav.stiky .lang-btn a {
+  color: #fff;
+}
+
 nav .nav-icon {
   width: 100px;
   height: 80px;
@@ -63,7 +67,7 @@ nav .lang-btn {
 
 nav .lang-btn a {
   text-decoration: none;
-  color: #fff;
+  color: #212121;
   font-size: 35px;
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
@@ -72,5 +76,18 @@ nav .lang-btn a {
 
 nav .lang-btn a:hover {
   color: #00AC5E;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: #00AC5E !important;
+}
+
+.carousel .carousel-inner {
+  height: 600px;
+  max-height: 600px;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -16,6 +16,7 @@
 
 // START:: SASS VARIABLES
 $mainColor: #00AC5E;
+$darkColor: #212121;
 // END:: SASS VARIABLES
 
 // START:: GLOBAL STYLES
@@ -49,6 +50,12 @@ nav {
         }
       }
     }
+
+    .lang-btn {
+      a {
+        color: #fff;
+      }
+    }
   }
   .nav-icon {
     width: 100px;
@@ -65,7 +72,7 @@ nav {
       .menu-item {
         a {
           text-decoration: none;
-          color: #212121;
+          color: $darkColor;
           padding-bottom: 5px;
           position: relative;
           border-bottom: 2px solid transparent;
@@ -83,7 +90,7 @@ nav {
     height: auto;
     a {
       text-decoration: none;
-      color: #fff;
+      color: $darkColor;
       font-size: 35px;
       position: relative;
       @include transitioning();
@@ -94,3 +101,23 @@ nav {
   }
 }
 // END:: NAVBAR STYLES
+
+// START:: SLIDER STYLES
+.carousel {
+  .carousel-indicators {
+    li.active {
+      background-color: $mainColor !important;
+    }
+  }
+
+  .carousel-inner {
+    height: 600px;
+    max-height: 600px;
+    .carousel-item {
+      img {
+        height: auto;
+      }
+    }
+  }
+}
+// END:: SLIDER STYLES

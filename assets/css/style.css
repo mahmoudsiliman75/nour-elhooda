@@ -90,4 +90,24 @@ nav .lang-btn a:hover {
 .carousel .carousel-inner .carousel-item img {
   height: auto;
 }
+
+.welcome-sec {
+  padding: 50px 0;
+}
+
+.welcome-sec .welcome-img {
+  max-width: 540px;
+  max-height: 360px;
+}
+
+.welcome-sec .welcome-text h2 {
+  color: #00AC5E;
+  font-weight: 400;
+}
+
+.welcome-sec .welcome-text p {
+  text-align: justify;
+  line-height: 1.8;
+  color: #6d6e75;
+}
 /*# sourceMappingURL=style.css.map */

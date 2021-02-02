@@ -15,8 +15,6 @@
     <li data-target="#header-slider" data-slide-to="1"></li>
     <li data-target="#header-slider" data-slide-to="2"></li>
     <li data-target="#header-slider" data-slide-to="3"></li>
-    <li data-target="#header-slider" data-slide-to="4"></li>
-    <li data-target="#header-slider" data-slide-to="5"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -35,14 +33,6 @@
       <img src="assets/pics/slider/slider4.jpg" class="d-block w-100" alt="Fourth Slide Img">
     </div>
 
-    <div class="carousel-item">
-      <img src="assets/pics/slider/slider5.jpg" class="d-block w-100" alt="Fifth Slide Img">
-    </div>
-
-    <div class="carousel-item">
-      <img src="assets/pics/slider/slider6.jpg" class="d-block w-100" alt="Fifth Slide Img">
-    </div>
-
   </div>
   <a class="carousel-control-prev" href="#header-slider" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -54,6 +44,26 @@
   </a>
 </div>
 <!-- END:: SLIDER SECTION -->
+
+<!-- START:: WELCOME SECTION -->
+<div class="welcome-sec">
+  <div class="container">
+    <div class="row">
+
+      <div class="welcome-img col-12 col-md-6">
+        <img class="img-fluid" src="assets/pics/pic1.jpg" alt="Welcome Section Img">
+      </div>
+
+      <div class="welcome-text col-12 col-md-6 d-flex flex-column justify-content-center">
+        <h2 class="text-center"> Welcome To Nour El Hooda </h2>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
+        Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END:: WELCOME SECTION -->
 
 <!-- END:: PAGE CONTENT -->
 

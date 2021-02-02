@@ -17,6 +17,9 @@
 // START:: SASS VARIABLES
 $mainColor: #00AC5E;
 $darkColor: #212121;
+$textColor: #6d6e75;
+
+$sectionPadding: 50px 0;
 // END:: SASS VARIABLES
 
 // START:: GLOBAL STYLES
@@ -121,3 +124,26 @@ nav {
   }
 }
 // END:: SLIDER STYLES
+
+// START:: WELCOME SECTION STYLES
+.welcome-sec {
+  padding: $sectionPadding;
+  .welcome-img {
+    max-width: 540px;
+    max-height: 360px;
+  }
+
+  .welcome-text {
+    h2 {
+      color: $mainColor;
+      font-weight: 400;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.8;
+      color: $textColor
+    }
+  }
+}
+// END:: WELCOME SECTION STYLES

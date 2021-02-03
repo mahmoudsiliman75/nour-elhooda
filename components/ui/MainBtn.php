@@ -1,0 +1,1 @@
+<a href="" class="hover-effect"> View More </a>

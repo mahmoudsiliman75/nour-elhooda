@@ -118,6 +118,15 @@ body {
   font-family: 'Cairo', sans-serif;
   min-height: 200vh;
 }
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: $darkColor;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $mainColor;
+}
 // END:: GLOBAL STYLES
 
 // START:: NAVBAR STYLES

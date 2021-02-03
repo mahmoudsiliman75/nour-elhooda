@@ -107,6 +107,15 @@ body {
   min-height: 200vh;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #212121;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00AC5E;
+}
+
 nav {
   background-color: transparent;
   position: fixed;

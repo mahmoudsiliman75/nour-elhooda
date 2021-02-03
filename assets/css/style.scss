@@ -26,7 +26,7 @@ $mainColor: #00AC5E;
 $darkColor: #212121;
 $textColor: #6d6e75;
 
-$sectionPadding: 80px 0;
+$sectionPadding: 60px 0;
 // END:: SASS VARIABLES
 
 // START:: GLOBAL STYLES
@@ -123,6 +123,7 @@ $sectionPadding: 80px 0;
 
   // START:: MAIN HEADER STYLE 
   .sec-heading {
+    margin-top: 0 !important;
     text-align: center;
     color: $mainColor;
     position: relative;
@@ -536,3 +537,90 @@ footer {
   }
 }
 // END:: FOOTER STYLE
+
+// START:: ABOUT US PAGE STYLES 
+.intro-img-box {
+  position: relative;
+  height: 405px;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  .curve {
+    position: relative;
+    bottom: 128px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: transparent;
+    path {
+      fill: #fff;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .intro-img-box {
+    .curve {
+      path {
+        fill: transparent;
+      }
+    }
+  }
+}
+
+.about-us-desc {
+  padding: $sectionPadding;
+  .about-img {
+    max-width: 540px;
+    max-height: 360px;
+    img {
+      @include borderRadius();
+    }
+  }
+
+  .about-text {
+    h2 {
+      color: $mainColor;
+      font-weight: 400;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.8;
+      color: $textColor
+    }
+  }
+}
+
+.goals {
+  padding: $sectionPadding;
+  p {
+    color: $textColor;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.6;
+  }
+}
+
+.comp-heighlight {
+  padding: $sectionPadding;
+  .sec-heading {
+    &::before,
+    &::after {
+      width: 9%;
+    }
+  }
+}
+// END:: ABOUT US PAGE STYLES 

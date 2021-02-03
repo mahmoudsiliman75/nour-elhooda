@@ -30,17 +30,19 @@
 <!-- START:: NAVBAR -->
 <nav id="navBar" class="d-flex justify-content-between px-3">
   <div class="nav-icon">
-    <img src="assets/pics/logo.png">
+    <a href="index.php"> 
+      <img src="assets/pics/logo.png">
+    </a>
   </div>
 
   <div class="nav-links">
     <ul class="menu-container list-unstyled d-flex align-items-center ">
       <li class="menu-item mx-3"> 
-        <a href="#" class="active"> Home </a> 
+        <a href="index.php" class="active"> Home </a> 
       </li>
 
       <li class="menu-item mx-3"> 
-        <a href="#"> About Us </a> 
+        <a href="AboutUs.php"> About Us </a> 
       </li>
 
       <li class="menu-item mx-3"> 

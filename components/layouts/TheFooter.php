@@ -8,8 +8,8 @@
 
         <div class="short-cuts col-6 col-md-3"> 
           <div>
-            <a href="#"> Home </a>
-            <a href="#"> About Us </a>
+            <a href="index.php"> Home </a>
+            <a href="AboutUs.php"> About Us </a>
             <a href="#"> Projects </a>
             <a href="#"> Gallery </a>
           </div>

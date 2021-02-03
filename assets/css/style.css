@@ -296,6 +296,49 @@ nav .lang-btn a:hover {
   color: #6d6e75;
 }
 
+.projects {
+  padding: 80px 0;
+}
+
+.projects .card {
+  border: none;
+}
+
+.projects .card img {
+  border-radius: 10px;
+}
+
+.projects .card .card-body {
+  position: relative;
+}
+
+.projects .card .card-body h4 {
+  color: #6d6e75;
+}
+
+.projects .card .card-body a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  right: 10%;
+  background-color: #00AC5E;
+  border: none;
+  line-height: 28px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects .card .card-body a:focus {
+  outline: none;
+}
+
+.projects .card .card-body a:hover {
+  -webkit-transform: rotate(360deg) scale(1.2);
+          transform: rotate(360deg) scale(1.2);
+}
+
 .products {
   padding: 80px 0;
 }

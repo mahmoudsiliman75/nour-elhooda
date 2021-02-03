@@ -329,7 +329,43 @@ nav {
 }
 // END:: INVESTOR SECTION STYLES
 
-// START:: OUR PRODUCTS SECTION
+// START:: OUR PROJECTS SECTION STYLES
+.projects {
+  padding: $sectionPadding;
+  .card {
+    border: none;
+    img {
+      border-radius: 10px;
+    }
+    .card-body {
+      position: relative;
+      h4 {
+        color: $textColor;
+      }
+      a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: -25%;
+        right: 10%;
+        background-color: $mainColor;
+        border: none;
+        line-height: 28px;
+        @include transitioning();
+        &:focus {
+          outline: none;
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+        }
+      }
+    }
+  }
+}
+// END:: OUR PROJECTS SECTION STYLES
+
+// START:: OUR PRODUCTS SECTION STYLES
 .products {
   padding: $sectionPadding;
   .card {
@@ -363,4 +399,4 @@ nav {
     }
   }
 }
-// END:: OUR PRODUCTS SECTION
+// END:: OUR PRODUCTS SECTION STYLES

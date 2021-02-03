@@ -35,8 +35,8 @@
 
   <div class="nav-links">
     <ul class="menu-container list-unstyled d-flex align-items-center ">
-      <li class="menu-item active mx-3"> 
-        <a href="#"> Home </a> 
+      <li class="menu-item mx-3"> 
+        <a href="#" class="active"> Home </a> 
       </li>
 
       <li class="menu-item mx-3"> 

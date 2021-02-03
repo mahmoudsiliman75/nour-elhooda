@@ -175,10 +175,6 @@ $sectionPadding: 80px 0;
 
 body {
   font-family: 'Cairo', sans-serif;
-  min-height: 200vh;
-
-  // FOR TEST
-  height: 800vh;
 }
 
 body::-webkit-scrollbar {
@@ -238,7 +234,8 @@ nav {
           position: relative;
           border-bottom: 2px solid transparent;
           @include transitioning();
-          &:hover {
+          &:hover,
+          &.active {
             color: $mainColor;
             border-bottom: 2px solid $mainColor;
           }
@@ -413,6 +410,7 @@ nav {
 
 // STRT:: NEWS SECTION STYLES
 .news {
+  padding: $sectionPadding;
   .card {
     position: relative;
     @include borderRadius();
@@ -445,3 +443,96 @@ nav {
   }
 }
 // END:: NEWS SECTION STYLES
+
+// START:: FOOTER STYLE
+footer {
+  background-color: $darkColor;
+  color: #fff;
+
+  .footer-logo {
+    width: 150px;
+    height: 150px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .short-cuts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        @include transitioning();
+        &:hover {
+          color: $mainColor;
+        }
+      }
+    }
+  }
+
+  .follow-us {
+    h5 {
+      color: $mainColor;
+    }
+
+    ul {
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 0 10px;
+        @include transitioning();
+        &:hover {
+          transform: rotate(-30deg) scale(1.2);
+        }
+        a {
+          color: #fff;
+          font-size: 35px;
+          opacity: 0.5;
+          @include transitioning();
+          &.facebook {
+            color: rgb(27, 69, 255);
+          }
+          &.instagram {
+            color: rgb(243, 82, 248);
+          }
+          &.youtube {
+            color: rgb(255, 74, 74);
+          }
+          &.twitter {
+            color: rgb(27, 171, 255);
+          }
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .get-in-touch {
+    h5 {
+      color: $mainColor;
+    }
+
+    ul {
+      overflow: hidden;
+      li {
+        margin-bottom: 8px;
+        @include transitioning();
+        &:hover {
+          transform: translateX(10px);
+        }
+        svg {
+          color: $mainColor;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+// END:: FOOTER STYLE

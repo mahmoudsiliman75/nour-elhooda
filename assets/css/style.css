@@ -421,6 +421,91 @@ nav .lang-btn a:hover {
   text-align: justify;
 }
 
+.intro-img-box {
+  position: relative;
+  height: 405px;
+}
+
+.intro-img-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.intro-img-box img {
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro-img-box .curve {
+  position: relative;
+  bottom: 128px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: transparent;
+}
+
+.intro-img-box .curve path {
+  fill: #fff;
+}
+
+@media (max-width: 1280px) {
+  .intro-img-box .curve path {
+    fill: transparent;
+  }
+}
+
+.about-us-desc {
+  padding: 60px 0;
+}
+
+.about-us-desc .about-img {
+  max-width: 540px;
+  max-height: 360px;
+}
+
+.about-us-desc .about-img img {
+  border-radius: 10px;
+}
+
+.about-us-desc .about-text h2 {
+  color: #00AC5E;
+  font-weight: 400;
+}
+
+.about-us-desc .about-text p {
+  text-align: justify;
+  line-height: 1.8;
+  color: #6d6e75;
+}
+
+.goals {
+  padding: 60px 0;
+}
+
+.goals p {
+  color: #6d6e75;
+  text-align: justify;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.comp-heighlight {
+  padding: 60px 0;
+}
+
+.comp-heighlight .sec-heading::before, .comp-heighlight .sec-heading::after {
+  width: 9%;
+}
+
 footer {
   background-color: #212121;
   color: #fff;
@@ -532,88 +617,17 @@ footer .get-in-touch ul li svg {
   font-size: 18px;
 }
 
-.intro-img-box {
-  position: relative;
-  height: 405px;
+footer .copy-rights {
+  background-color: #383838;
+  padding: 6px 10px;
 }
 
-.intro-img-box .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.intro-img-box img {
-  width: 100%;
-  max-height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.intro-img-box .curve {
-  position: relative;
-  bottom: 128px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  background-color: transparent;
-}
-
-.intro-img-box .curve path {
-  fill: #fff;
-}
-
-@media (max-width: 1280px) {
-  .intro-img-box .curve path {
-    fill: transparent;
-  }
-}
-
-.about-us-desc {
-  padding: 60px 0;
-}
-
-.about-us-desc .about-img {
-  max-width: 540px;
-  max-height: 360px;
-}
-
-.about-us-desc .about-img img {
-  border-radius: 10px;
-}
-
-.about-us-desc .about-text h2 {
+footer .copy-rights span a {
   color: #00AC5E;
-  font-weight: 400;
+  text-decoration: none;
 }
 
-.about-us-desc .about-text p {
-  text-align: justify;
-  line-height: 1.8;
-  color: #6d6e75;
-}
-
-.goals {
-  padding: 60px 0;
-}
-
-.goals p {
-  color: #6d6e75;
-  text-align: justify;
-  font-size: 19px;
-  line-height: 1.6;
-}
-
-.comp-heighlight {
-  padding: 60px 0;
-}
-
-.comp-heighlight .sec-heading::before, .comp-heighlight .sec-heading::after {
-  width: 9%;
+footer .copy-rights span a:hover {
+  color: #008cff;
 }
 /*# sourceMappingURL=style.css.map */

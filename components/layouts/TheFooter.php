@@ -70,7 +70,12 @@
               <span> NourElHooda@localhost.com </span>
             </li>
           </ul>
-      </div>
+        </div>
+
+        <div class="copy-rights col-12 d-flex justify-content-between">
+          <span> Poweered By <a href="#"> MediaServe </a> </span>
+          <span> &copy; 2021 Nourelhooda </span>
+        </div>
       </div>
     </div>
   </footer>

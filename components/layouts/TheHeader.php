@@ -35,35 +35,35 @@
 
   <div class="nav-links">
     <ul class="menu-container list-unstyled d-flex align-items-center ">
-      <li class="menu-item active mx-2"> 
+      <li class="menu-item active mx-3"> 
         <a href="#"> Home </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> About Us </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> Projects </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> Products </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> News </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> Video Liberary </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> Gallery </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="#"> Contact Us </a> 
       </li>
     </ul>

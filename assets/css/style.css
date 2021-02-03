@@ -159,7 +159,7 @@
 body {
   font-family: 'Cairo', sans-serif;
   min-height: 200vh;
-  height: 500vh;
+  height: 800vh;
 }
 
 body::-webkit-scrollbar {
@@ -380,5 +380,41 @@ nav .lang-btn a:hover {
 .products .card .card-body a:hover {
   -webkit-transform: rotate(360deg) scale(1.2);
           transform: rotate(360deg) scale(1.2);
+}
+
+.news .card {
+  position: relative;
+  border-radius: 10px;
+}
+
+.news .card .badge {
+  position: absolute;
+  top: -10px;
+  left: 5%;
+  width: 75px;
+  height: 60px;
+  line-height: 53px;
+  background-color: #00AC5E;
+  border-radius: 5px;
+}
+
+.news .card .badge .inner-badge {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 11px;
+  border-radius: 5px;
+}
+
+.news .card .card-body {
+  padding: 0 15px 25px;
+}
+
+.news .card .card-body h4 {
+  color: #00AC5E;
+}
+
+.news .card .card-body p {
+  color: #6d6e75;
+  text-align: justify;
 }
 /*# sourceMappingURL=style.css.map */

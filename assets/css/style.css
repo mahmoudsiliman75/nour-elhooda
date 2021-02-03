@@ -62,13 +62,14 @@
           transform: skew(-50deg);
 }
 
-* .sec-heading {
+* .small-sec-heading {
+  text-align: center;
   color: #00AC5E;
   position: relative;
   font-size: 2.4vw;
 }
 
-* .sec-heading::before {
+* .small-sec-heading::before {
   content: "";
   display: block;
   position: absolute;
@@ -79,7 +80,7 @@
   background-color: #00AC5E;
 }
 
-* .sec-heading::after {
+* .small-sec-heading::after {
   content: "";
   display: block;
   position: absolute;
@@ -91,20 +92,74 @@
 }
 
 @media (max-width: 690px) {
-  * .sec-heading {
+  * .small-sec-heading {
     font-size: 4vw;
   }
 }
 
 @media (max-width: 767px) {
-  * .sec-heading {
+  * .small-sec-heading {
     font-size: 3.4vw;
+  }
+}
+
+* .sec-heading {
+  text-align: center;
+  color: #00AC5E;
+  position: relative;
+  font-size: 3.2vw;
+}
+
+* .sec-heading::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  height: 2px;
+  width: 15%;
+  background-color: #00AC5E;
+}
+
+* .sec-heading::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 24%;
+  height: 2px;
+  width: 15%;
+  background-color: #00AC5E;
+}
+
+@media (max-width: 690px) {
+  * .sec-heading {
+    font-size: 4vw;
+  }
+  * .sec-heading::before {
+    left: 12%;
+  }
+  * .sec-heading::after {
+    right: 12%;
+  }
+}
+
+@media (max-width: 767px) {
+  * .sec-heading {
+    font-size: 4.5vw;
+  }
+  * .sec-heading::before {
+    left: 15%;
+  }
+  * .sec-heading::after {
+    right: 15%;
   }
 }
 
 body {
   font-family: 'Cairo', sans-serif;
   min-height: 200vh;
+  height: 500vh;
 }
 
 body::-webkit-scrollbar {
@@ -202,6 +257,10 @@ nav .lang-btn a:hover {
   max-height: 360px;
 }
 
+.welcome-sec .welcome-img img {
+  border-radius: 10px;
+}
+
 .welcome-sec .welcome-text h2 {
   color: #00AC5E;
   font-weight: 400;
@@ -227,11 +286,56 @@ nav .lang-btn a:hover {
 }
 
 .investor .investor-video iframe {
+  border-radius: 10px;
   width: 100%;
-  height: 100%;
+  height: 90%;
+  display: block;
 }
 
 .investor .investor-video h4 {
   color: #6d6e75;
+}
+
+.products {
+  padding: 80px 0;
+}
+
+.products .card {
+  border: none;
+}
+
+.products .card img {
+  border-radius: 10px;
+}
+
+.products .card .card-body {
+  position: relative;
+}
+
+.products .card .card-body h4 {
+  color: #6d6e75;
+}
+
+.products .card .card-body a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  right: 10%;
+  background-color: #00AC5E;
+  border: none;
+  line-height: 28px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.products .card .card-body a:focus {
+  outline: none;
+}
+
+.products .card .card-body a:hover {
+  -webkit-transform: rotate(360deg) scale(1.2);
+          transform: rotate(360deg) scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

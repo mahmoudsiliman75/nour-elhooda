@@ -744,6 +744,100 @@ nav .lang-btn a:hover {
           transform: rotate(360deg) scale(1.2);
 }
 
+.product-details {
+  padding: 60px 0;
+}
+
+.product-details .project-details-img img {
+  border-radius: 10px;
+}
+
+.product-details .project-details-text h2::before, .product-details .project-details-text h2::after {
+  width: 13%;
+}
+
+.product-details .project-details-text p {
+  padding: 0 10px;
+  color: #6d6e75;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.heighlights {
+  padding: 60px 0;
+}
+
+.heighlights h2::before, .heighlights h2::after {
+  width: 6%;
+}
+
+.integerated {
+  padding: 60px 0;
+}
+
+.integerated h2::before, .integerated h2::after {
+  width: 5%;
+}
+
+.integerated .card {
+  border: none;
+}
+
+.integerated .card img {
+  border-radius: 10px;
+}
+
+.integerated .card .card-body {
+  position: relative;
+}
+
+.integerated .card .card-body h4 {
+  color: #6d6e75;
+}
+
+.integerated .card .card-body a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  right: 10%;
+  background-color: #00AC5E;
+  border: none;
+  line-height: 28px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.integerated .card .card-body a:focus {
+  outline: none;
+}
+
+.integerated .card .card-body a:hover {
+  -webkit-transform: rotate(360deg) scale(1.2);
+          transform: rotate(360deg) scale(1.2);
+}
+
+.why-to-invest {
+  padding: 30px 25px;
+  background: -webkit-gradient(linear, left top, right top, from(#1d976c), to(#93f9b9));
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  color: #fff;
+}
+
+.why-to-invest a {
+  color: #fff;
+  border-color: #fff;
+}
+
+.why-to-invest a::before, .why-to-invest a::after {
+  background-color: #88F0B2;
+}
+
+.why-to-invest a:hover {
+  color: #fff;
+}
+
 footer {
   background-color: #212121;
   color: #fff;

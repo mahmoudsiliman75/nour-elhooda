@@ -126,7 +126,7 @@
 <!-- START:: WHY TO INVEST SECTION -->
 <div class="why-to-invest">
   <div class="container-fluid d-flex justify-content-between align-items-center">
-    <h3 class="mb-0"> To Invest With Nour El Hooda? Please Contact Us </h3>
+    <h3 class="mb-0"> To Invest With Nour El Hooda? Please Contact Us </h3> 
 
     <div>
       <?php $link = 'ContactUs.php'; $title = 'Contact Us' ?>

@@ -204,7 +204,7 @@ $sectionPadding: 60px 0;
       }
     }
   }
-  
+
   @media (max-width: 1200px) {
     .intro-img-box {
       .curve {
@@ -212,7 +212,7 @@ $sectionPadding: 60px 0;
       }
     }
   }
-  
+
   @media (min-width: 900px) and (max-width: 1000px) {
     .intro-img-box {
       .curve {
@@ -220,7 +220,7 @@ $sectionPadding: 60px 0;
       }
     }
   }
-  
+
   @media (max-width: 900px) {
     .intro-img-box {
       .curve {
@@ -765,6 +765,100 @@ nav {
   }
 }
 // END:: PRODUCTS PAGE STYLES
+
+// START:: PRODUCT DETAILS PAGE STYLES
+.product-details {
+  padding: $sectionPadding;
+  .project-details-img {
+    img {
+      @include borderRadius();
+    }
+  }
+  .project-details-text {
+    h2 {
+      &::before,
+      &::after {
+        width: 13%;
+      }
+    }
+
+    p {
+      padding: 0 10px;
+      color: $textColor;
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+}
+
+.heighlights {
+  padding: $sectionPadding;
+
+  h2 {
+    &::before,
+    &::after {
+      width: 6%;
+    }
+  }
+}
+
+.integerated {
+  padding: $sectionPadding;
+  h2 {
+    &::before,
+    &::after {
+      width: 5%;
+    }
+  }
+  .card {
+    border: none;
+    img {
+      @include borderRadius();
+    }
+    .card-body {
+      position: relative;
+      h4 {
+        color: $textColor;
+      }
+      a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: -25%;
+        right: 10%;
+        background-color: $mainColor;
+        border: none;
+        line-height: 28px;
+        @include transitioning();
+        &:focus {
+          outline: none;
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+.why-to-invest {
+  padding: 30px 25px;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  color: #fff;
+  a {
+    color: #fff;
+    border-color: #fff;
+    &::before,
+    &::after {
+      background-color: #88F0B2;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+// END:: PRODUCT DETAILS PAGE STYLES
 
 // START:: FOOTER STYLE
 footer {

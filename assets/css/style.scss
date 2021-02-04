@@ -431,6 +431,7 @@ nav {
 
 // START:: GALLERY SECTION STYLES
 .gallery {
+  padding: $sectionPadding;
   .owl-carousel {
     .gallery-slider-item {
       img {
@@ -629,6 +630,101 @@ nav {
 }
 // END:: PROJECTS PAGE STYLES
 
+// START:: PROJECT DETAILS PAGE STYLES
+.project-details {
+  padding: $sectionPadding;
+  .project-details-text {
+    h2 {
+      &::before,
+      &::after {
+        width: 13%;
+      }
+    }
+
+    p {
+      padding: 0 10px;
+      color: $textColor;
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+}
+
+.why-sec {
+  padding: $sectionPadding;
+
+  h2 {
+    &::before,
+    &::after {
+      width: 6%;
+    }
+  }
+}
+
+.videos {
+  padding: $sectionPadding;
+  .owl-carousel {
+    .videos-slider-item {
+      iframe {
+        width: 100%;
+        @include borderRadius();
+        max-height: 280px;
+        min-height: 280px;
+      }
+    }
+
+    .owl-nav {
+      position: relative;
+      .owl-prev {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: -25px;
+        top: -165px;
+        background-color: $mainColor;
+        span {
+          font-size: 35px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+      .owl-next {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: -25px;
+        top: -165px;
+        background-color: $mainColor;
+        span {
+          font-size: 35px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.why-to-invest {
+  padding: 30px 25px;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  color: #fff;
+  a {
+    color: #fff;
+    border-color: #fff;
+    &::before,
+    &::after {
+      background-color: #88F0B2;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+// END:: PROJECT DETAILS PAGE STYLES
+
 // START:: FOOTER STYLE
 footer {
   background-color: $darkColor;
@@ -677,7 +773,7 @@ footer {
         a {
           color: #fff;
           font-size: 35px;
-          opacity: 0.5;
+          opacity: 0.3;
           @include transitioning();
           &.facebook {
             color: rgb(27, 69, 255);

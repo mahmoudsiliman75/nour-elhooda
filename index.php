@@ -136,6 +136,11 @@
         </div>
       </div>
 
+      <div class="col-12 text-center mt-5">
+        <?php $link = 'Projects.php'; $title = 'More Projects' ?>
+        <?php include(INC.'/ui/MainBtn.php')?>
+      </div>
+
     </div>
   </div>
 </div>
@@ -147,7 +152,7 @@
 
     <h2 class="sec-heading mb-5"> Gallery </h2>
 
-    <div class="owl-carousel owl-theme">
+    <div id="gallery-slider" class="owl-carousel owl-theme">
       <div class="gallery-slider-item"> 
         <img src="assets/pics/pic20.jpg">
       </div>
@@ -176,6 +181,11 @@
         <img src="assets/pics/pic18.jpg">
       </div>
     </div>
+
+      <div class="col-12 text-center mt-5">
+        <?php $link = 'Gallery.php'; $title = 'View More' ?>
+        <?php include(INC.'/ui/MainBtn.php')?>
+      </div>
   </div>
 </div>
 <!-- END:: GALLERY SECTION -->
@@ -222,6 +232,11 @@
             </a>
           </div>
         </div>
+      </div>
+
+      <div class="col-12 text-center mt-5">
+        <?php $link = 'Products.php'; $title = 'More Products' ?>
+        <?php include(INC.'/ui/MainBtn.php')?>
       </div>
 
     </div>

@@ -11,7 +11,7 @@ $(document).ready(function() {
   // END:: STIKY NAVBAR
 
   // START:: HOME GALLERY SLIDER
-  $('.owl-carousel').owlCarousel({
+  $('#gallery-slider').owlCarousel({
     dots: false,
     loop:true,
     margin:10,
@@ -33,4 +33,28 @@ $(document).ready(function() {
     }
   });
   // END:: HOME GALLERY SLIDER
+
+  // START:: VIDEOS SLIDER
+  $('#videos-slider').owlCarousel({
+    dots: false,
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:1,
+        nav:true
+      },
+      600:{
+        items:3,
+        nav:false
+      },
+      1000:{
+        items:3,
+        nav:true,
+        loop:false
+      }
+    }
+  });
+  // START:: VIDEOS SLIDER
 });

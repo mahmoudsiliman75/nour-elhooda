@@ -392,6 +392,10 @@ nav .lang-btn a:hover {
           transform: rotate(360deg) scale(1.2);
 }
 
+.gallery {
+  padding: 60px 0;
+}
+
 .gallery .owl-carousel .gallery-slider-item img {
   border-radius: 10px;
   max-height: 280px;
@@ -603,6 +607,96 @@ nav .lang-btn a:hover {
           transform: rotate(360deg) scale(1.2);
 }
 
+.project-details {
+  padding: 60px 0;
+}
+
+.project-details .project-details-text h2::before, .project-details .project-details-text h2::after {
+  width: 13%;
+}
+
+.project-details .project-details-text p {
+  padding: 0 10px;
+  color: #6d6e75;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.why-sec {
+  padding: 60px 0;
+}
+
+.why-sec h2::before, .why-sec h2::after {
+  width: 6%;
+}
+
+.videos {
+  padding: 60px 0;
+}
+
+.videos .owl-carousel .videos-slider-item iframe {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 280px;
+  min-height: 280px;
+}
+
+.videos .owl-carousel .owl-nav {
+  position: relative;
+}
+
+.videos .owl-carousel .owl-nav .owl-prev {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -25px;
+  top: -165px;
+  background-color: #00AC5E;
+}
+
+.videos .owl-carousel .owl-nav .owl-prev span {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+}
+
+.videos .owl-carousel .owl-nav .owl-next {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: -25px;
+  top: -165px;
+  background-color: #00AC5E;
+}
+
+.videos .owl-carousel .owl-nav .owl-next span {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+}
+
+.why-to-invest {
+  padding: 30px 25px;
+  background: -webkit-gradient(linear, left top, right top, from(#1d976c), to(#93f9b9));
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  color: #fff;
+}
+
+.why-to-invest a {
+  color: #fff;
+  border-color: #fff;
+}
+
+.why-to-invest a::before, .why-to-invest a::after {
+  background-color: #88F0B2;
+}
+
+.why-to-invest a:hover {
+  color: #fff;
+}
+
 footer {
   background-color: #212121;
   color: #fff;
@@ -665,7 +759,7 @@ footer .follow-us ul li:hover {
 footer .follow-us ul li a {
   color: #fff;
   font-size: 35px;
-  opacity: 0.5;
+  opacity: 0.3;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }

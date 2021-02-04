@@ -88,30 +88,37 @@
     <div id="videos-slider" class="owl-carousel owl-theme">
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
 
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
 
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
 
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
 
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
 
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
 
       <div class="videos-slider-item"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-jwSrDCd-vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="text-center"> Video Title </h4>
       </div>
     </div>
 

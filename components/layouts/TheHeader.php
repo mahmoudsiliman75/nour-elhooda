@@ -59,7 +59,7 @@
       </li>
 
       <li class="menu-item mx-3"> 
-        <a href="#"> News </a> 
+        <a href="AllNews.php"> News </a> 
       </li>
 
       <li class="menu-item mx-3"> 

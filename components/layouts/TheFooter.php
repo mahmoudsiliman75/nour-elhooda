@@ -16,7 +16,7 @@
 
           <div>
             <a href="Products.php"> Products </a>
-            <a href="#"> News </a>
+            <a href="AllNews.php"> News </a>
             <a href="#"> Video Liberary </a>
             <a href="#"> Contact Us </a>
           </div>

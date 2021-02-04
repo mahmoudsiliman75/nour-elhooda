@@ -55,7 +55,7 @@
       </li>
 
       <li class="menu-item mx-3"> 
-        <a href="#"> Products </a> 
+        <a href="Products.php"> Products </a> 
       </li>
 
       <li class="menu-item mx-3"> 

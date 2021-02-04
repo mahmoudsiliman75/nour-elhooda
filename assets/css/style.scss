@@ -633,6 +633,11 @@ nav {
 // START:: PROJECT DETAILS PAGE STYLES
 .project-details {
   padding: $sectionPadding;
+  .project-details-img {
+    img {
+      @include borderRadius();
+    }
+  }
   .project-details-text {
     h2 {
       &::before,
@@ -724,6 +729,42 @@ nav {
   }
 }
 // END:: PROJECT DETAILS PAGE STYLES
+
+// START:: PRODUCTS PAGE STYLES
+.products-page {
+  padding: $sectionPadding;
+  .card {
+    border: none;
+    img {
+      @include borderRadius();
+    }
+    .card-body {
+      position: relative;
+      h4 {
+        color: $textColor;
+      }
+      a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: -25%;
+        right: 10%;
+        background-color: $mainColor;
+        border: none;
+        line-height: 28px;
+        @include transitioning();
+        &:focus {
+          outline: none;
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+        }
+      }
+    }
+  }
+}
+// END:: PRODUCTS PAGE STYLES
 
 // START:: FOOTER STYLE
 footer {

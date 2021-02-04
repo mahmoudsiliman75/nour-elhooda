@@ -201,7 +201,7 @@
           <img src="assets/pics/pic21.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
-            <a href="#" class="btn btn-primary"> 
+            <a href="ProductsDetails.php" class="btn btn-primary"> 
               <i class="fas fa-plus"></i>
             </a>
           </div>
@@ -213,7 +213,7 @@
           <img src="assets/pics/pic10.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
-            <a href="#" class="btn btn-primary"> 
+            <a href="ProductsDetails.php" class="btn btn-primary"> 
               <i class="fas fa-plus"></i>
             </a>
           </div>
@@ -226,8 +226,7 @@
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
-            <!-- ProductDetails.php -->
-            <a href="#" class="btn btn-primary"> 
+            <a href="ProductsDetails.php" class="btn btn-primary"> 
               <i class="fas fa-plus"></i>
             </a>
           </div>

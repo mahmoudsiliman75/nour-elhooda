@@ -611,6 +611,10 @@ nav .lang-btn a:hover {
   padding: 60px 0;
 }
 
+.project-details .project-details-img img {
+  border-radius: 10px;
+}
+
 .project-details .project-details-text h2::before, .project-details .project-details-text h2::after {
   width: 13%;
 }
@@ -695,6 +699,49 @@ nav .lang-btn a:hover {
 
 .why-to-invest a:hover {
   color: #fff;
+}
+
+.products-page {
+  padding: 60px 0;
+}
+
+.products-page .card {
+  border: none;
+}
+
+.products-page .card img {
+  border-radius: 10px;
+}
+
+.products-page .card .card-body {
+  position: relative;
+}
+
+.products-page .card .card-body h4 {
+  color: #6d6e75;
+}
+
+.products-page .card .card-body a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  right: 10%;
+  background-color: #00AC5E;
+  border: none;
+  line-height: 28px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.products-page .card .card-body a:focus {
+  outline: none;
+}
+
+.products-page .card .card-body a:hover {
+  -webkit-transform: rotate(360deg) scale(1.2);
+          transform: rotate(360deg) scale(1.2);
 }
 
 footer {

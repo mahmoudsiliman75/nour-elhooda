@@ -487,7 +487,7 @@ nav .lang-btn a:hover {
 
 .intro-img-box .curve {
   position: relative;
-  bottom: 128px;
+  bottom: 120px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -499,7 +499,19 @@ nav .lang-btn a:hover {
   fill: #fff;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
+  .intro-img-box .curve {
+    bottom: 100px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .intro-img-box .curve {
+    bottom: 85px;
+  }
+}
+
+@media (max-width: 900px) {
   .intro-img-box .curve path {
     fill: transparent;
   }

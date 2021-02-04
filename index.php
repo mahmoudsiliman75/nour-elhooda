@@ -120,7 +120,7 @@
 <!-- START:: OUR PROJECTS SECTION -->
 <div class="projects">
   <div class="container">
-    <h2 class="sec-heading mt-5"> Our Products </h2>
+    <h2 class="sec-heading mt-5"> Our Projects </h2>
     <div class="row justify-content-center">
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
@@ -129,8 +129,7 @@
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
-            <!-- ProjectDetails.php -->
-            <a href="#" class="btn btn-primary"> 
+            <a href="ProjectDetails.php" class="btn btn-primary"> 
               <i class="fas fa-plus"></i>
             </a>
           </div>

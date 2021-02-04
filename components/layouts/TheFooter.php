@@ -10,7 +10,7 @@
           <div>
             <a href="index.php"> Home </a>
             <a href="AboutUs.php"> About Us </a>
-            <a href="#"> Projects </a>
+            <a href="Projects.php"> Projects </a>
             <a href="#"> Gallery </a>
           </div>
 

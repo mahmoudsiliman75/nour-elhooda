@@ -51,7 +51,7 @@
       </li>
 
       <li class="menu-item mx-3"> 
-        <a href="#"> Projects </a> 
+        <a href="Projects.php"> Projects </a> 
       </li>
 
       <li class="menu-item mx-3"> 

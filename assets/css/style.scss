@@ -172,6 +172,65 @@ $sectionPadding: 60px 0;
     }
   }
   // END:: MAIN HEADER STYLE
+
+  // START:: INTRO IMG STYLE
+  .intro-img-box {
+    position: relative;
+    height: 405px;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .curve {
+      position: relative;
+      bottom: 120px;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      background-color: transparent;
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .intro-img-box {
+      .curve {
+      bottom: 100px;
+      }
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1000px) {
+    .intro-img-box {
+      .curve {
+      bottom: 85px;
+      }
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .intro-img-box {
+      .curve {
+        path {
+          fill: transparent;
+        }
+      }
+    }
+  }
+  // END:: INTRO IMG STYLE
 }
 
 body {
@@ -489,63 +548,6 @@ nav {
 // END:: NEWS SECTION STYLES
 
 // START:: ABOUT US PAGE STYLES 
-.intro-img-box {
-  position: relative;
-  height: 405px;
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-  }
-  .curve {
-    position: relative;
-    bottom: 120px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    background-color: transparent;
-    path {
-      fill: #fff;
-    }
-  }
-}
-
-@media (max-width: 1200px) {
-  .intro-img-box {
-    .curve {
-    bottom: 100px;
-    }
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1000px) {
-  .intro-img-box {
-    .curve {
-    bottom: 85px;
-    }
-  }
-}
-
-@media (max-width: 900px) {
-  .intro-img-box {
-    .curve {
-      path {
-        fill: transparent;
-      }
-    }
-  }
-}
-
 .about-us-desc {
   padding: $sectionPadding;
   .about-img {
@@ -590,6 +592,42 @@ nav {
   }
 }
 // END:: ABOUT US PAGE STYLES 
+
+// START:: PROJECTS PAGE STYLES
+.projects-page {
+  padding: $sectionPadding;
+  .card {
+    border: none;
+    img {
+      @include borderRadius();
+    }
+    .card-body {
+      position: relative;
+      h4 {
+        color: $textColor;
+      }
+      a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: -25%;
+        right: 10%;
+        background-color: $mainColor;
+        border: none;
+        line-height: 28px;
+        @include transitioning();
+        &:focus {
+          outline: none;
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+        }
+      }
+    }
+  }
+}
+// END:: PROJECTS PAGE STYLES
 
 // START:: FOOTER STYLE
 footer {

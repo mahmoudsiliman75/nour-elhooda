@@ -94,6 +94,10 @@
   <script src="assets/js/all.min.js"></script>
   <!-- END:: INCLUDING FONTAWESOME SCRIPT FILES -->
 
+  <!-- START:: INCLUDING OWL CAROUSEL SCRIPT FILES -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- END:: INCLUDING OWL CAROUSEL SCRIPT FILES -->
+
   <!-- START:: INCLUDING MAIN JS FILE -->
   <script src="assets/js/main.js"></script>
   <!-- END:: INCLUDING MAIN JS FILE -->

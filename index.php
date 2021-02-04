@@ -142,6 +142,45 @@
 </div>
 <!-- END:: OUR PROJECTS SECTION -->
 
+<!-- START:: GALLERY SECTION -->
+<div class="gallery">
+  <div class="container">
+
+    <h2 class="sec-heading mb-5"> Gallery </h2>
+
+    <div class="owl-carousel owl-theme">
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic20.jpg">
+      </div>
+
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic9.jpg">
+      </div>
+
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic11.jpg">
+      </div>
+
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic16.jpg">
+      </div>
+
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic19.jpg">
+      </div>
+
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic22.jpg">
+      </div>
+
+      <div class="gallery-slider-item"> 
+        <img src="assets/pics/pic18.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: GALLERY SECTION -->
+
 <!-- START:: OUR PRODUCTS SECTION -->
 <div class="products">
   <div class="container">

@@ -16,6 +16,11 @@
   <link rel="stylesheet" href="assets/css/all.min.css">
   <!-- END:: INCLUDING FONT AWESOME STYLE FILE -->
 
+  <!-- START:: OWL CAROUSEL STYLE FILES -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- END:: OWL CAROUSEL STYLE FILES -->
+
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- END:: INCLUDING MAIN STYLE FILE -->

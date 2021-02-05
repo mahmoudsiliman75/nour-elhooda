@@ -23,11 +23,11 @@
 <!-- START:: PAGE CONTENT -->
 
 <!-- START:: DETAILS SECTION -->
-<div class="product-details">
+<div class="article-details">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-6">
-        <div class="project-details-img">
+        <div class="article-details-img">
           <img src="assets/pics/pic22.jpg" alt="Product Details Img" class="img-fluid">
         </div>
       </div>
@@ -37,7 +37,7 @@
   <div class="container-fluid mt-4">
     <div class="row">
       <div class="col-12">
-        <div class="project-details-text">
+        <div class="article-details-text">
           <h2 class="sec-heading mb-4"> Article Name </h2>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque, facere quae cum quis explicabo delectus velit ut? Reiciendis facilis adipisci dolorum aspernatur modi corporis quod fugit ullam asperiores quisquam. 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque, facere quae cum quis explicabo delectus velit ut? Reiciendis facilis adipisci dolorum aspernatur modi corporis quod fugit ullam asperiores quisquam. 

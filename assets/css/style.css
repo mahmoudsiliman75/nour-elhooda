@@ -297,8 +297,16 @@ nav .lang-btn a:hover {
   background-color: #00AC5E !important;
 }
 
+.carousel .carousel-inner .carousel-item {
+  max-height: 350px;
+  min-height: 350px;
+}
+
 .carousel .carousel-inner .carousel-item img {
-  height: auto;
+  max-height: 350px;
+  min-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .welcome-sec {
@@ -654,7 +662,7 @@ nav .lang-btn a:hover {
   height: 35px;
   position: absolute;
   left: -25px;
-  top: -165px;
+  top: -220px;
   background-color: #00AC5E;
 }
 
@@ -670,7 +678,7 @@ nav .lang-btn a:hover {
   height: 35px;
   position: absolute;
   right: -25px;
-  top: -165px;
+  top: -220px;
   background-color: #00AC5E;
 }
 
@@ -879,6 +887,25 @@ nav .lang-btn a:hover {
 
 .news-page .card .card-body p {
   color: #6d6e75;
+  text-align: justify;
+}
+
+.article-details {
+  padding: 60px 0;
+}
+
+.article-details .article-details-img img {
+  border-radius: 10px;
+}
+
+.article-details .article-details-text h2::before, .article-details .article-details-text h2::after {
+  width: 13%;
+}
+
+.article-details .article-details-text p {
+  padding: 0 10px;
+  color: #6d6e75;
+  font-size: 20px;
   text-align: justify;
 }
 

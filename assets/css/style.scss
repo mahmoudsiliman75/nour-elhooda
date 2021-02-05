@@ -331,11 +331,13 @@ nav {
   }
 
   .carousel-inner {
-    // height: 600px;
-    // max-height: 600px;
     .carousel-item {
+      max-height: 350px;
+      min-height: 350px;
       img {
-        height: auto;
+        max-height: 350px;
+        min-height: 350px;
+        object-fit: cover;
       }
     }
   }
@@ -687,7 +689,7 @@ nav {
         height: 35px;
         position: absolute;
         left: -25px;
-        top: -165px;
+        top: -220px;
         background-color: $mainColor;
         span {
           font-size: 35px;
@@ -701,7 +703,7 @@ nav {
         height: 35px;
         position: absolute;
         right: -25px;
-        top: -165px;
+        top: -220px;
         background-color: $mainColor;
         span {
           font-size: 35px;
@@ -903,6 +905,32 @@ nav {
   }
 }
 // END:: NEWS PAGE STYLES
+
+// START:: PRODUCT DETAILS PAGE STYLES
+.article-details {
+  padding: $sectionPadding;
+  .article-details-img {
+    img {
+      @include borderRadius();
+    }
+  }
+  .article-details-text {
+    h2 {
+      &::before,
+      &::after {
+        width: 13%;
+      }
+    }
+
+    p {
+      padding: 0 10px;
+      color: $textColor;
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+}
+// END:: PRODUCT DETAILS PAGE STYLES
 
 // START:: VIDEOS LIBERARY PAGE STYLES
 .videos-liberary {

@@ -21,7 +21,7 @@
 <!-- END:: INTRO IMG -->
 
 <!-- START:: PAGE CONTENT -->
-<div class="news">
+<div class="news-page">
   <div class="container">
     <h2 class="sec-heading mt-5"> Investor News </h2>
     <div class="row justify-content-center">

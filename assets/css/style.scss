@@ -239,15 +239,13 @@ $sectionPadding: 60px 0;
 
 body {
   font-family: 'Cairo', sans-serif;
-}
-
-body::-webkit-scrollbar {
-  width: 5px;
-  background-color: $darkColor;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: $mainColor;
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: $darkColor;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $mainColor;
+  }
 }
 // END:: GLOBAL STYLES
 
@@ -864,6 +862,48 @@ nav {
 }
 // END:: PRODUCT DETAILS PAGE STYLES
 
+// START:: NEWS PAGE STYLES
+.news-page {
+  padding: $sectionPadding;
+  h2 {
+    &::before,
+    &::after {
+      width: 12%;
+    }
+  }
+  .card {
+    position: relative;
+    @include borderRadius();
+    .badge {
+      position: absolute;
+      top: -10px;
+      left: 5%;
+      width: 75px;
+      height: 60px;
+      line-height: 53px;
+      background-color: $mainColor;
+      border-radius: 5px;
+      .inner-badge {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 11px;
+        border-radius: 5px;
+      }
+    }
+    .card-body {
+      padding: 0 15px 25px;
+      h4 {
+        color: $mainColor;
+      }
+      p {
+        color: $textColor;
+        text-align: justify;
+      }
+    }
+  }
+}
+// END:: NEWS PAGE STYLES
+
 // START:: VIDEOS LIBERARY PAGE STYLES
 .videos-liberary {
   padding: $sectionPadding;
@@ -922,6 +962,88 @@ nav {
   }
 }
 // END:: OUR GALLERY PAGE STYLES
+
+// START:: CONTACT US PAGE
+.contact-us-page {
+  padding: $sectionPadding;
+
+  h2 {
+    &::before,
+    &::after {
+      width: 6%;
+    }
+  }
+
+  .card {
+    min-height: 210px;
+    max-height: 210px;
+    border: 1px solid $mainColor;
+    @include setBoxShado($mainColor);
+    @include borderRadius();
+    .card-title {
+      color: $mainColor;
+    }
+    .card-list {
+      li {
+        margin-bottom: 10px;
+        @include transitioning();
+        &:hover {
+          transform: translateX(5px);
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+        svg {
+          color: $mainColor;
+          font-size: 20px;
+          margin: 0 5px;
+        }
+        span {
+          color: $textColor;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  iframe {
+    width: 100%;
+    min-height: 455px;
+    max-height: 455px;
+    @include borderRadius();
+  }
+
+  form {
+    input,
+    textarea {
+      width: 100%;
+      padding: 20px 10px;
+      border: 1px solid $mainColor;
+      @include borderRadius();
+      &:focus {
+        outline: none;
+      }
+    }
+
+    textarea {
+      height: 150px;
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: $darkColor;
+        border-radius: 0 10px 10px 0;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: $mainColor;
+        border-radius: 0 10px 10px 0;
+      }
+    }
+
+    button {
+      background-color: transparent;
+    }
+  }
+}
+// END:: CONTACT US PAGE
 
 // START:: FOOTER STYLE
 footer {

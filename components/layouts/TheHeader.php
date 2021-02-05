@@ -71,7 +71,7 @@
       </li>
 
       <li class="menu-item mx-3"> 
-        <a href="#"> Contact Us </a> 
+        <a href="ContactUs.php"> Contact Us </a> 
       </li>
     </ul>
   </div>

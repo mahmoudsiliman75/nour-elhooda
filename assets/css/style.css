@@ -838,6 +838,50 @@ nav .lang-btn a:hover {
   color: #fff;
 }
 
+.news-page {
+  padding: 60px 0;
+}
+
+.news-page h2::before, .news-page h2::after {
+  width: 12%;
+}
+
+.news-page .card {
+  position: relative;
+  border-radius: 10px;
+}
+
+.news-page .card .badge {
+  position: absolute;
+  top: -10px;
+  left: 5%;
+  width: 75px;
+  height: 60px;
+  line-height: 53px;
+  background-color: #00AC5E;
+  border-radius: 5px;
+}
+
+.news-page .card .badge .inner-badge {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 11px;
+  border-radius: 5px;
+}
+
+.news-page .card .card-body {
+  padding: 0 15px 25px;
+}
+
+.news-page .card .card-body h4 {
+  color: #00AC5E;
+}
+
+.news-page .card .card-body p {
+  color: #6d6e75;
+  text-align: justify;
+}
+
 .videos-liberary {
   padding: 60px 0;
 }
@@ -892,6 +936,93 @@ nav .lang-btn a:hover {
   min-height: 280px;
   max-height: 280px;
   border-radius: 10px;
+}
+
+.contact-us-page {
+  padding: 60px 0;
+}
+
+.contact-us-page h2::before, .contact-us-page h2::after {
+  width: 6%;
+}
+
+.contact-us-page .card {
+  min-height: 210px;
+  max-height: 210px;
+  border: 1px solid #00AC5E;
+  -webkit-box-shadow: 0 0 3px 1px #00AC5E;
+  -o-box-shadow: 0 0 3px 1px #00AC5E;
+  box-shadow: 0 0 3px 1px #00AC5E;
+  border-radius: 10px;
+}
+
+.contact-us-page .card .card-title {
+  color: #00AC5E;
+}
+
+.contact-us-page .card .card-list li {
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact-us-page .card .card-list li:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.contact-us-page .card .card-list li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us-page .card .card-list li svg {
+  color: #00AC5E;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.contact-us-page .card .card-list li span {
+  color: #6d6e75;
+  text-align: justify;
+}
+
+.contact-us-page iframe {
+  width: 100%;
+  min-height: 455px;
+  max-height: 455px;
+  border-radius: 10px;
+}
+
+.contact-us-page form input,
+.contact-us-page form textarea {
+  width: 100%;
+  padding: 20px 10px;
+  border: 1px solid #00AC5E;
+  border-radius: 10px;
+}
+
+.contact-us-page form input:focus,
+.contact-us-page form textarea:focus {
+  outline: none;
+}
+
+.contact-us-page form textarea {
+  height: 150px;
+}
+
+.contact-us-page form textarea::-webkit-scrollbar {
+  width: 5px;
+  background-color: #212121;
+  border-radius: 0 10px 10px 0;
+}
+
+.contact-us-page form textarea::-webkit-scrollbar-thumb {
+  background-color: #00AC5E;
+  border-radius: 0 10px 10px 0;
+}
+
+.contact-us-page form button {
+  background-color: transparent;
 }
 
 footer {

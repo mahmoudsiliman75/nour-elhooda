@@ -19,6 +19,13 @@
   -o-border-radius: 10px;
   border-radius: 10px;
 }
+
+@mixin setBoxShado($sh) {
+  -moz-box-shadow: 0 0 3px 1px $sh;
+  -webkit-box-shadow: 0 0 3px 1px $sh;
+  -o-box-shadow: 0 0 3px 1px $sh;
+  box-shadow: 0 0 3px 1px $sh;
+}
 // END:: SASS MIXINS
 
 // START:: SASS VARIABLES
@@ -204,7 +211,6 @@ $sectionPadding: 60px 0;
       }
     }
   }
-
   @media (max-width: 1200px) {
     .intro-img-box {
       .curve {
@@ -212,7 +218,6 @@ $sectionPadding: 60px 0;
       }
     }
   }
-
   @media (min-width: 900px) and (max-width: 1000px) {
     .intro-img-box {
       .curve {
@@ -220,7 +225,6 @@ $sectionPadding: 60px 0;
       }
     }
   }
-
   @media (max-width: 900px) {
     .intro-img-box {
       .curve {
@@ -859,6 +863,47 @@ nav {
   }
 }
 // END:: PRODUCT DETAILS PAGE STYLES
+
+// START:: VIDEOS LIBERARY PAGE STYLES
+.videos-liberary {
+  padding: $sectionPadding;
+  h2 {
+    &::before,
+    &::after {
+      width: 10%;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: $textColor;
+    text-align: justify;
+  }
+
+  .nav-pills  {
+    .nav-link {
+      color: $mainColor;
+      border: 1px solid $mainColor;
+      border-radius: 20px;
+      @include setBoxShado($mainColor);
+      @include transitioning();
+      &.active,
+      &:hover {
+        color: #fff;
+        background-color: $mainColor
+      }
+    }
+  }
+
+  iframe {
+    @include borderRadius();
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+  }
+}
+// END:: VIDEOS LIBERARY PAGE STYLES
 
 // START:: FOOTER STYLE
 footer {

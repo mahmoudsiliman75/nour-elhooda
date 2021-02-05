@@ -838,6 +838,44 @@ nav .lang-btn a:hover {
   color: #fff;
 }
 
+.videos-liberary {
+  padding: 60px 0;
+}
+
+.videos-liberary h2::before, .videos-liberary h2::after {
+  width: 10%;
+}
+
+.videos-liberary p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6d6e75;
+  text-align: justify;
+}
+
+.videos-liberary .nav-pills .nav-link {
+  color: #00AC5E;
+  border: 1px solid #00AC5E;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 3px 1px #00AC5E;
+  -o-box-shadow: 0 0 3px 1px #00AC5E;
+  box-shadow: 0 0 3px 1px #00AC5E;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.videos-liberary .nav-pills .nav-link.active, .videos-liberary .nav-pills .nav-link:hover {
+  color: #fff;
+  background-color: #00AC5E;
+}
+
+.videos-liberary iframe {
+  border-radius: 10px;
+  width: 100%;
+  min-height: 280px;
+  max-height: 280px;
+}
+
 footer {
   background-color: #212121;
   color: #fff;

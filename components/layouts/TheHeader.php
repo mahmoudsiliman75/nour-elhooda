@@ -63,7 +63,7 @@
       </li>
 
       <li class="menu-item mx-3"> 
-        <a href="#"> Video Liberary </a> 
+        <a href="VideosLiberary.php"> Video Liberary </a> 
       </li>
 
       <li class="menu-item mx-3"> 

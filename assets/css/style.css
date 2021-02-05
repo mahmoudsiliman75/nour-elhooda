@@ -876,6 +876,24 @@ nav .lang-btn a:hover {
   max-height: 280px;
 }
 
+.gallery-page {
+  padding: 60px 0;
+}
+
+.gallery-page .card {
+  border: none;
+  min-height: 280px;
+  max-height: 280px;
+  border-radius: 10px;
+}
+
+.gallery-page .card img {
+  width: 100%;
+  min-height: 280px;
+  max-height: 280px;
+  border-radius: 10px;
+}
+
 footer {
   background-color: #212121;
   color: #fff;

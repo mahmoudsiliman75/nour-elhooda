@@ -11,7 +11,7 @@
             <a href="index.php"> Home </a>
             <a href="AboutUs.php"> About Us </a>
             <a href="Projects.php"> Projects </a>
-            <a href="#"> Gallery </a>
+            <a href="Gallery.php"> Gallery </a>
           </div>
 
           <div>

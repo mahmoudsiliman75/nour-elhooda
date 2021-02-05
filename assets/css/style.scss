@@ -905,6 +905,24 @@ nav {
 }
 // END:: VIDEOS LIBERARY PAGE STYLES
 
+// START:: OUR GALLERY PAGE STYLES
+.gallery-page {
+  padding: $sectionPadding;
+  .card {
+    border: none;
+    min-height: 280px;
+    max-height: 280px;
+    @include borderRadius();
+    img {
+      width: 100%;
+      min-height: 280px;
+      max-height: 280px;
+      @include borderRadius();
+    }
+  }
+}
+// END:: OUR GALLERY PAGE STYLES
+
 // START:: FOOTER STYLE
 footer {
   background-color: $darkColor;

@@ -183,7 +183,8 @@ $sectionPadding: 60px 0;
   // START:: INTRO IMG STYLE
   .intro-img-box {
     position: relative;
-    height: 405px;
+    min-height: 350px;
+    max-height: 350px;
     .overlay {
       position: absolute;
       top: 0;
@@ -195,7 +196,8 @@ $sectionPadding: 60px 0;
     }
     img {
       width: 100%;
-      max-height: 400px;
+      max-height: 350px;
+      min-height: 350px;
       object-fit: cover;
     }
     .curve {
@@ -1089,7 +1091,7 @@ footer {
 
   .short-cuts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     div {
       a {

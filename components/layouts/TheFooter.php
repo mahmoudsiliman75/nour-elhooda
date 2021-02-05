@@ -1,7 +1,7 @@
   <!-- START:: FOOTER -->
   <footer>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="footer-logo col-6 col-md-2"> 
           <img src="assets/pics/logo.png">
         </div>
@@ -22,7 +22,7 @@
           </div>
         </div>
 
-        <div class="follow-us col-6 col-md-4"> 
+        <div class="follow-us col-12 col-md-4"> 
           <h5 class="text-center my-3"> Follow Us </h5>
           <ul class="list-unstyled">
             <li> 
@@ -51,8 +51,8 @@
           </ul>
         </div>
 
-        <div class="get-in-touch col-6 col-md-3"> 
-          <h5 class="my-3"> Get In Touch With Us </h5>
+        <div class="get-in-touch col-6 col-md-3 p-0 px-md-2"> 
+          <h5 class="my-3 text-center text-md-left"> Get In Touch With Us </h5>
 
           <ul class="list-unstyled">
             <li> 

@@ -469,26 +469,15 @@ nav .lang-btn a:hover {
 }
 
 .products .card .card-body a {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  top: -25%;
-  right: 10%;
-  background-color: #00AC5E;
+  color: #00AC5E;
+  background-color: transparent;
   border: none;
-  line-height: 28px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .products .card .card-body a:focus {
   outline: none;
-}
-
-.products .card .card-body a:hover {
-  -webkit-transform: rotate(360deg) scale(1.2);
-          transform: rotate(360deg) scale(1.2);
 }
 
 .news {
@@ -732,26 +721,15 @@ nav .lang-btn a:hover {
 }
 
 .products-page .card .card-body a {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  top: -25%;
-  right: 10%;
-  background-color: #00AC5E;
+  color: #00AC5E;
+  background-color: transparent;
   border: none;
-  line-height: 28px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .products-page .card .card-body a:focus {
   outline: none;
-}
-
-.products-page .card .card-body a:hover {
-  -webkit-transform: rotate(360deg) scale(1.2);
-          transform: rotate(360deg) scale(1.2);
 }
 
 .product-details {

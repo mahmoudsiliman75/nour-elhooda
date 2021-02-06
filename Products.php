@@ -31,11 +31,12 @@
           <a href="ProductsDetails.php"> 
             <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
           </a>
-          <div class="card-body">
+          <div class="card-body d-flex justify-content-between">
             <h4 class="card-title">Spirulina</h4>
 
             <a href="ProductsDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
+              Read More 
+              <i class="far fa-arrow-alt-circle-right"></i>
             </a>
           </div>
         </div>
@@ -46,11 +47,12 @@
           <a href="ProductsDetails.php"> 
             <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
           </a>
-          <div class="card-body">
+          <div class="card-body d-flex justify-content-between">
             <h4 class="card-title">Spirulina</h4>
 
             <a href="ProductsDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
+              Read More 
+              <i class="far fa-arrow-alt-circle-right"></i>
             </a>
           </div>
         </div>
@@ -61,11 +63,12 @@
           <a href="ProductsDetails.php"> 
             <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
           </a>
-          <div class="card-body">
+          <div class="card-body d-flex justify-content-between">
             <h4 class="card-title">Spirulina</h4>
 
             <a href="ProductsDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
+              Read More 
+              <i class="far fa-arrow-alt-circle-right"></i>
             </a>
           </div>
         </div>
@@ -76,11 +79,12 @@
           <a href="ProductsDetails.php"> 
             <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
           </a>
-          <div class="card-body">
+          <div class="card-body d-flex justify-content-between">
             <h4 class="card-title">Spirulina</h4>
 
             <a href="ProductsDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
+              Read More 
+              <i class="far fa-arrow-alt-circle-right"></i>
             </a>
           </div>
         </div>
@@ -91,11 +95,12 @@
           <a href="ProductsDetails.php"> 
             <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
           </a>
-          <div class="card-body">
+          <div class="card-body d-flex justify-content-between">
             <h4 class="card-title">Spirulina</h4>
 
             <a href="ProductsDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
+              Read More 
+              <i class="far fa-arrow-alt-circle-right"></i>
             </a>
           </div>
         </div>
@@ -106,11 +111,12 @@
           <a href="ProductsDetails.php"> 
             <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
           </a>
-          <div class="card-body">
+          <div class="card-body d-flex justify-content-between">
             <h4 class="card-title">Spirulina</h4>
 
             <a href="ProductsDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
+              Read More 
+              <i class="far fa-arrow-alt-circle-right"></i>
             </a>
           </div>
         </div>

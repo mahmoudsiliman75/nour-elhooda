@@ -49,7 +49,7 @@
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
-            <a href="ProjectDetails.php" class="btn btn-primary"> 
+            <a href="ProjectDetails.php" class="btn btn-primary">
               <i class="fas fa-plus"></i>
             </a>
           </div>
@@ -64,7 +64,7 @@
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
-            <a href="ProjectDetails.php" class="btn btn-primary"> 
+            <a href="ProjectDetails.php" class="btn btn-primary">
               <i class="fas fa-plus"></i>
             </a>
           </div>

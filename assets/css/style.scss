@@ -496,21 +496,12 @@ nav {
         color: $textColor;
       }
       a {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        position: absolute;
-        top: -25%;
-        right: 10%;
-        background-color: $mainColor;
+        color: $mainColor;
+        background-color: transparent;
         border: none;
-        line-height: 28px;
         @include transitioning();
         &:focus {
           outline: none;
-        }
-        &:hover {
-          transform: rotate(360deg) scale(1.2);
         }
       }
     }
@@ -750,21 +741,12 @@ nav {
         color: $textColor;
       }
       a {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        position: absolute;
-        top: -25%;
-        right: 10%;
-        background-color: $mainColor;
+        color: $mainColor;
+        background-color: transparent;
         border: none;
-        line-height: 28px;
         @include transitioning();
         &:focus {
           outline: none;
-        }
-        &:hover {
-          transform: rotate(360deg) scale(1.2);
         }
       }
     }

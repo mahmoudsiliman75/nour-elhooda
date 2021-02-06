@@ -20,7 +20,6 @@
 </div>
 <!-- END:: INTRO IMG -->
 
-
 <!-- START:: PAGE CONTENT -->
 <div class="products-page">
   <div class="container">
@@ -29,7 +28,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php"> 
+            <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -42,7 +43,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php"> 
+            <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -55,7 +58,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php"> 
+            <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -68,7 +73,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php"> 
+            <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -81,7 +88,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php"> 
+            <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -94,7 +103,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php"> 
+            <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 

@@ -125,7 +125,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic8.jpg" class="card-img-top" alt="...">
+          <a href="ProjectDetails.php"> 
+            <img src="assets/pics/pic8.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -198,7 +200,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic21.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php">
+            <img src="assets/pics/pic21.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
             <a href="ProductsDetails.php" class="btn btn-primary"> 
@@ -210,7 +214,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic10.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php">
+            <img src="assets/pics/pic10.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
             <a href="ProductsDetails.php" class="btn btn-primary"> 
@@ -222,7 +228,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          <a href="ProductsDetails.php">
+            <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h4 class="card-title">Spirulina</h4>
 
@@ -254,7 +262,9 @@
           <span class="badge"> 
             <span class="inner-badge"> 20, Jan </span> 
           </span>
-          <img src="assets/pics/pic22.jpg" class="card-img-top" alt="...">
+          <a href="ArticleDetails.php">
+            <img src="assets/pics/pic22.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>
             <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
@@ -271,7 +281,9 @@
           <span class="badge"> 
             <span class="inner-badge"> 20, Jan </span> 
           </span>
-          <img src="assets/pics/pic1.jpg" class="card-img-top" alt="...">
+          <a href="ArticleDetails.php">
+            <img src="assets/pics/pic1.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>
             <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
@@ -288,7 +300,9 @@
           <span class="badge"> 
             <span class="inner-badge"> 20, Jan </span> 
           </span>
-          <img src="assets/pics/pic3.jpg" class="card-img-top" alt="...">
+          <a href="ArticleDetails.php">
+            <img src="assets/pics/pic3.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>
             <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
@@ -305,7 +319,9 @@
           <span class="badge"> 
             <span class="inner-badge"> 20, Jan </span> 
           </span>
-          <img src="assets/pics/pic17.jpg" class="card-img-top" alt="...">
+          <a href="ArticleDetails.php">
+            <img src="assets/pics/pic17.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>
             <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
@@ -322,7 +338,9 @@
           <span class="badge"> 
             <span class="inner-badge"> 20, Jan </span> 
           </span>
-          <img src="assets/pics/pic16.jpg" class="card-img-top" alt="...">
+          <a href="ArticleDetails.php">
+            <img src="assets/pics/pic16.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>
             <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
@@ -339,7 +357,9 @@
           <span class="badge"> 
             <span class="inner-badge"> 20, Jan </span> 
           </span>
-          <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
+          <a href="ArticleDetails.php">
+            <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
+          </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>
             <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>

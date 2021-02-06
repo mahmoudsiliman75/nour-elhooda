@@ -28,6 +28,9 @@
     <div class="row justify-content-center">
       <div class="col-6">
         <div class="article-details-img">
+          <span class="badge"> 
+            <span class="inner-badge"> 20, Jan </span> 
+          </span>
           <img src="assets/pics/pic22.jpg" alt="Product Details Img" class="img-fluid">
         </div>
       </div>
@@ -51,10 +54,10 @@
 <!-- START:: DETAILS SECTION -->
 
 <!-- START:: VIDEOS SECTION -->
-<div class="videos">
+<div class="rel-videos">
   <div class="container">
 
-    <h2 class="sec-heading mb-5"> Videos </h2>
+    <h2 class="sec-heading mb-5"> Related Videos </h2>
 
     <div id="videos-slider" class="owl-carousel owl-theme">
       <div class="videos-slider-item"> 

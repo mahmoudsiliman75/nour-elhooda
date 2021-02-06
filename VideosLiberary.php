@@ -26,7 +26,7 @@
   <div class="container">
     <h2 class="sec-heading mt-5"> Videos Liberary </h2>
     <p class="mb-5 mt-3">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque qui voluptates voluptas nesciunt facere dolore dolor reprehenderit quibusdam reiciendis praesentium iste, obcaecati at fugiat laborum doloremque repellat consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vitae neque qui voluptates voluptas nesciunt facere dolore dolor reprehenderit quibusdam reiciendis praesentium iste, obcaecati at fugiat laborum doloremque repellat consequuntur. </p>
+                          Vitae neque qui voluptates voluptas nesciunt facere dolore dolor reprehenderit quibusdam reiciendis praesentium iste, obcaecati at fugiat laborum doloremque repellat consequuntur. </p>
 
     <!-- START:: TABS -->
     <ul class="nav nav-pills d-flex justify-content-around my-4" id="pills-tab" role="tablist">
@@ -82,7 +82,7 @@
           </div>
 
           <div class="col-12 text-center">
-            <?php $link = '#'; $title = 'Load More' ?>
+            <?php $link = '#'; $title = 'Load More Videos' ?>
             <?php include(INC.'/ui/MainBtn.php')?>
           </div>
         </div>
@@ -124,7 +124,7 @@
           </div>
 
           <div class="col-12 text-center">
-            <?php $link = '#'; $title = 'Load More' ?>
+            <?php $link = '#'; $title = 'Load More Videos' ?>
             <?php include(INC.'/ui/MainBtn.php')?>
           </div>
 
@@ -167,7 +167,7 @@
           </div>
 
           <div class="col-12 text-center">
-            <?php $link = '#'; $title = 'Load More' ?>
+            <?php $link = '#'; $title = 'Load More Videos' ?>
             <?php include(INC.'/ui/MainBtn.php')?>
           </div>
         </div>

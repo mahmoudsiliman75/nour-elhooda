@@ -908,10 +908,27 @@ nav {
 }
 // END:: NEWS PAGE STYLES
 
-// START:: PRODUCT DETAILS PAGE STYLES
+// START:: ARTICLE DETAILS PAGE STYLES
 .article-details {
   padding: $sectionPadding;
   .article-details-img {
+    position: relative;
+    .badge {
+      position: absolute;
+      top: -10px;
+      left: 5%;
+      width: 75px;
+      height: 60px;
+      line-height: 53px;
+      background-color: $mainColor;
+      border-radius: 5px;
+      .inner-badge {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 11px;
+        border-radius: 5px;
+      }
+    }
     img {
       @include borderRadius();
     }
@@ -932,7 +949,59 @@ nav {
     }
   }
 }
-// END:: PRODUCT DETAILS PAGE STYLES
+
+.rel-videos {
+  padding: $sectionPadding;
+  h2 {
+    &::before,
+    &::after {
+      width: 10%;
+    }
+  }
+  .owl-carousel {
+    .videos-slider-item {
+      iframe {
+        width: 100%;
+        @include borderRadius();
+        max-height: 280px;
+        min-height: 280px;
+      }
+    }
+
+    .owl-nav {
+      position: relative;
+      .owl-prev {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: -25px;
+        top: -220px;
+        background-color: $mainColor;
+        span {
+          font-size: 35px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+      .owl-next {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: -25px;
+        top: -220px;
+        background-color: $mainColor;
+        span {
+          font-size: 35px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+// END:: ARTICLE DETAILS PAGE STYLES
 
 // START:: VIDEOS LIBERARY PAGE STYLES
 .videos-liberary {

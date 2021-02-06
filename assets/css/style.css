@@ -896,6 +896,28 @@ nav .lang-btn a:hover {
   padding: 60px 0;
 }
 
+.article-details .article-details-img {
+  position: relative;
+}
+
+.article-details .article-details-img .badge {
+  position: absolute;
+  top: -10px;
+  left: 5%;
+  width: 75px;
+  height: 60px;
+  line-height: 53px;
+  background-color: #00AC5E;
+  border-radius: 5px;
+}
+
+.article-details .article-details-img .badge .inner-badge {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 11px;
+  border-radius: 5px;
+}
+
 .article-details .article-details-img img {
   border-radius: 10px;
 }
@@ -909,6 +931,57 @@ nav .lang-btn a:hover {
   color: #6d6e75;
   font-size: 20px;
   text-align: justify;
+}
+
+.rel-videos {
+  padding: 60px 0;
+}
+
+.rel-videos h2::before, .rel-videos h2::after {
+  width: 10%;
+}
+
+.rel-videos .owl-carousel .videos-slider-item iframe {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 280px;
+  min-height: 280px;
+}
+
+.rel-videos .owl-carousel .owl-nav {
+  position: relative;
+}
+
+.rel-videos .owl-carousel .owl-nav .owl-prev {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -25px;
+  top: -220px;
+  background-color: #00AC5E;
+}
+
+.rel-videos .owl-carousel .owl-nav .owl-prev span {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+}
+
+.rel-videos .owl-carousel .owl-nav .owl-next {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: -25px;
+  top: -220px;
+  background-color: #00AC5E;
+}
+
+.rel-videos .owl-carousel .owl-nav .owl-next span {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
 }
 
 .videos-liberary {

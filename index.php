@@ -61,7 +61,7 @@
 
         <!-- BTN NAME: LEARN MORE -->
         <!-- BTN DIRECTION PAGE: AboutUs.php -->
-          <?php $link = 'index.php'; $title = 'Learn More' ?>
+          <?php $link = 'AboutUs.php'; $title = 'Learn More' ?>
           <?php include(INC.'/ui/MainBtn.php')?>
       </div>
 

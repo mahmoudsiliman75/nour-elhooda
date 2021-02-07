@@ -132,12 +132,14 @@
 
 <!-- START:: WHY TO INVEST SECTION -->
 <div class="why-to-invest">
-  <div class="container-fluid d-flex justify-content-between align-items-center">
-    <h3 class="mb-0"> To Invest With Nour El Hooda? Please Contact Us </h3> 
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-between align-items-center">
+      <h3 class="mb-0 col-12 col-md-8"> To Invest With Nour El Hooda? Please Contact Us </h3> 
 
-    <div>
-      <?php $link = 'ContactUs.php'; $title = 'Contact Us' ?>
-      <?php include(INC.'/ui/MainBtn.php')?>
+      <div class="col-12 col-md-4 text-center mt-4 mt-md-0">
+        <?php $link = 'ContactUs.php'; $title = 'Contact Us' ?>
+        <?php include(INC.'/ui/MainBtn.php')?>
+      </div>
     </div>
   </div>
 </div>

@@ -29,16 +29,16 @@
                           Vitae neque qui voluptates voluptas nesciunt facere dolore dolor reprehenderit quibusdam reiciendis praesentium iste, obcaecati at fugiat laborum doloremque repellat consequuntur. </p>
 
     <!-- START:: TABS -->
-    <ul class="nav nav-pills d-flex justify-content-around my-4" id="pills-tab" role="tablist">
-      <li class="nav-item" role="presentation">
+    <ul class="nav nav-pills d-flex justify-content-center my-4" id="pills-tab" role="tablist">
+      <li class="nav-item mx-3" role="presentation">
         <a class="nav-link active" id="pills-all-videos-tab" data-toggle="pill" href="#pills-all-videos" role="tab" aria-controls="pills-all-videos" aria-selected="true">All</a>
       </li>
 
-      <li class="nav-item" role="presentation">
+      <li class="nav-item mx-3" role="presentation">
         <a class="nav-link" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false">Projects Videos</a>
       </li>
 
-      <li class="nav-item" role="presentation">
+      <li class="nav-item mx-3" role="presentation">
         <a class="nav-link" id="pills-interviews-tab" data-toggle="pill" href="#pills-interviews" role="tab" aria-controls="pills-interviews" aria-selected="false">Eng. Hatem Interviews</a>
       </li>
     </ul>

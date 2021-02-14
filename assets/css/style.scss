@@ -29,11 +29,10 @@
 // END:: SASS MIXINS
 
 // START:: SASS VARIABLES
-$mainColor: #00AC5E;
+$mainColor: #075619;
 $darkColor: #212121;
 $textColor: #6d6e75;
-
-$sectionPadding: 60px 0;
+$sectionPadding: 50px 0;
 // END:: SASS VARIABLES
 
 // START:: GLOBAL STYLES
@@ -254,30 +253,30 @@ body {
 // START:: NAVBAR STYLES
 nav {
   background-color: transparent;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9999;
   @include transitioning();
-  &.stiky {
-    background-color: rgba(0, 0, 0, 0.8);
-    .nav-links {
-      .menu-container {
-        .menu-item {
-          a {
-            color: #fff;
-          }
-        }
-      }
-    }
+  // &.stiky {
+  //   background-color: rgba(0, 0, 0, 0.8);
+  //   .nav-links {
+  //     .menu-container {
+  //       .menu-item {
+  //         a {
+  //           color: #fff;
+  //         }
+  //       }
+  //     }
+  //   }
 
-    .lang-btn {
-      a {
-        color: #fff;
-      }
-    }
-  }
+  //   .lang-btn {
+  //     a {
+  //       color: #fff;
+  //     }
+  //   }
+  // }
   .nav-icon {
     width: 100px;
     height: 80px;
@@ -795,7 +794,7 @@ nav {
   h2 {
     &::before,
     &::after {
-      width: 5%;
+      width: 3%;
     }
   }
   .card {
@@ -1175,19 +1174,6 @@ footer {
           color: #fff;
           font-size: 35px;
           opacity: 0.3;
-          @include transitioning();
-          &.facebook {
-            color: rgb(27, 69, 255);
-          }
-          &.instagram {
-            color: rgb(243, 82, 248);
-          }
-          &.youtube {
-            color: rgb(255, 74, 74);
-          }
-          &.twitter {
-            color: rgb(27, 171, 255);
-          }
           &:hover {
             opacity: 1;
           }

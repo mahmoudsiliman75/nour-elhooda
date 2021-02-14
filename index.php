@@ -138,7 +138,7 @@
         </div>
       </div>
 
-      <div class="col-12 text-center mt-5">
+      <div class="col-12 text-center mt-2">
         <?php $link = 'Projects.php'; $title = 'More Projects' ?>
         <?php include(INC.'/ui/MainBtn.php')?>
       </div>
@@ -244,7 +244,7 @@
         </div>
       </div>
 
-      <div class="col-12 text-center mt-5">
+      <div class="col-12 text-center mt-2">
         <?php $link = 'Products.php'; $title = 'More Products' ?>
         <?php include(INC.'/ui/MainBtn.php')?>
       </div>
@@ -305,63 +305,6 @@
           </span>
           <a href="ArticleDetails.php">
             <img src="assets/pics/pic3.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body text-center">
-            <h4 class="card-title mb-3 mt-2">Spirulina</h4>
-            <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
-
-            <!-- ArticleDetails.php -->
-            <?php $link = 'ArticleDetails.php'; $title = 'More Details' ?>
-            <?php include(INC.'/ui/MainBtn.php')?>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <span class="badge"> 
-            <span class="inner-badge"> 20, Jan </span> 
-          </span>
-          <a href="ArticleDetails.php">
-            <img src="assets/pics/pic17.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body text-center">
-            <h4 class="card-title mb-3 mt-2">Spirulina</h4>
-            <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
-
-            <!-- ArticleDetails.php -->
-            <?php $link = 'ArticleDetails.php'; $title = 'More Details' ?>
-            <?php include(INC.'/ui/MainBtn.php')?>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <span class="badge"> 
-            <span class="inner-badge"> 20, Jan </span> 
-          </span>
-          <a href="ArticleDetails.php">
-            <img src="assets/pics/pic16.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body text-center">
-            <h4 class="card-title mb-3 mt-2">Spirulina</h4>
-            <p class="card-text mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur itaque voluptatibus non. Impedit voluptas tempora assumenda voluptatem autem nostrum, reprehenderit iusto, non, expedita dolores distinctio nisi unde sed velit. </p>
-
-            <!-- ArticleDetails.php -->
-            <?php $link = 'ArticleDetails.php'; $title = 'More Details' ?>
-            <?php include(INC.'/ui/MainBtn.php')?>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <span class="badge"> 
-            <span class="inner-badge"> 20, Jan </span> 
-          </span>
-          <a href="ArticleDetails.php">
-            <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
           </a>
           <div class="card-body text-center">
             <h4 class="card-title mb-3 mt-2">Spirulina</h4>

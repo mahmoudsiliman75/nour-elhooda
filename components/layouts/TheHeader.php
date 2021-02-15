@@ -21,6 +21,10 @@
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
   <!-- END:: OWL CAROUSEL STYLE FILES -->
 
+  <!-- START:: INCLUDING LIGHTBOX STYLE FILE  -->
+  <link rel="stylesheet" href="assets/css/lightbox.css">
+  <!-- END:: INCLUDING LIGHTBOX STYLE FILE  -->
+
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- END:: INCLUDING MAIN STYLE FILE -->

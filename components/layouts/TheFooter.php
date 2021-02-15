@@ -98,6 +98,10 @@
   <script src="assets/js/owl.carousel.min.js"></script>
   <!-- END:: INCLUDING OWL CAROUSEL SCRIPT FILES -->
 
+  <!-- START:: INLUDING LIGHTBOX SCRIPT FILE -->
+  <script src="assets/js/lightbox.js"></script>
+  <!-- END:: INLUDING LIGHTBOX SCRIPT FILE -->
+
   <!-- START:: INCLUDING MAIN JS FILE -->
   <script src="assets/js/main.js"></script>
   <!-- END:: INCLUDING MAIN JS FILE -->

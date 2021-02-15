@@ -28,37 +28,49 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          <a href="assets/pics/pic15.jpg" data-lightbox="gallery">
+            <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+          </a>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic1.jpg" class="card-img-top" alt="...">
+          <a href="assets/pics/pic1.jpg" data-lightbox="gallery">
+            <img src="assets/pics/pic1.jpg" class="card-img-top" alt="...">
+          </a>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic10.jpg" class="card-img-top" alt="...">
+          <a href="assets/pics/pic10.jpg" data-lightbox="gallery">
+            <img src="assets/pics/pic10.jpg" class="card-img-top" alt="...">
+          </a>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic21.jpg" class="card-img-top" alt="...">
+          <a href="assets/pics/pic21.jpg" data-lightbox="gallery">
+            <img src="assets/pics/pic21.jpg" class="card-img-top" alt="...">
+          </a>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic17.jpg" class="card-img-top" alt="...">
+          <a href="assets/pics/pic17.jpg" data-lightbox="gallery">
+            <img src="assets/pics/pic17.jpg" class="card-img-top" alt="...">
+          </a>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
+          <a href="assets/pics/pic13.jpg" data-lightbox="gallery">
+            <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
+          </a>
         </div>
       </div>
 

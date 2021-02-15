@@ -15,12 +15,6 @@ $(document).ready(function() {
     'resizeDuration': 200,
     'wrapAround': true
   });
-
-  if ( $('.lightboxOverlay').css('display', 'block') ) {
-    $('body').css('overflow', "hidden");
-  } else if ( $('.lightboxOverlay').css('display', 'none') ) {
-    $('body').css('overflow', "visible");
-  }
   // END:: LIGHTBOX
 
   // START:: HOME GALLERY SLIDER
